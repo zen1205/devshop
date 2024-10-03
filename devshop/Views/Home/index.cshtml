@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiêu đề</title>
+    <link rel="shortcut icon" href="image\hi.PNG" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="image\hi.PNG" alt="Divine Shop">
+                <span>Div Shop</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm sản phẩm">
+                <button type="submit" class="search-button" aria-label="Search">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="#">Sản phẩm bạn vừa xem</a>
+                <a href="#">Sản phẩm mua nhiều</a>
+                <a href="#">Sản phẩm khuyến mại</a>
+            </div>
+            <div class="user-options">
+                <a href="#">Đăng nhập / Đăng ký</a>
+                <a href="#">Giỏ hàng <span>0</span></a>
+            </div>
+        </div>
+    </header>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+    <section id="featureProd">
+        <div id="textFeature">
+            <div>
+                <h2 class="title">Sản phẩm nổi bật</h2>
+                <h1>Danh sách những sản phẩm theo xu hướng mà có thể bạn sẽ thích</h1>
+
+            </div>
+
+            <div class="button-container1">
+                <button class="explore-button">Khám Phá</button>
+            </div>
+
+        </div>
+        <div class="prodContainer">
+            <div class="product-item">
+                <img src="image/sp1.png" />
+                <p class="prodDescription">
+                    Black Myth: Wukong - Thuê game (1 ngày)
+                </p>
+                <p class="prodPrice">
+                    <b>40.000đ</b> <s>1.299.000đ</s> <mark>-97%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp2.png" />
+                <p class="prodDescription">
+                    Netflix Premium 1 tháng - Tài khoản
+                </p>
+                <p class="prodPrice">
+                    <b>79.000đ</b>
+                    <s>260.000đ</s>
+                    <mark>-70%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp3.png" />
+                <p class="prodDescription">
+                    Spotify Premium 1 năm - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>390.000đ</b>
+                    <s>590.000đ</s>
+                    <mark>-34%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp4.png" />
+                <p class="prodDescription">
+                    Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp
+                </p>
+                <p class="prodPrice">
+                    <b>210.000đ</b>
+                    <s>350.000đ</s>
+                    <mark>-40%</mark>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="keywordsFeatured">
+        <div>
+            <h2>Từ khóa nổi bật</h2>
+        </div>
+        <div class="button-container2">
+            <button class="btn1">Làm việc</button>
+            <button class="btn2">Giải trí</button>
+            <button class="btn3">Học tập</button>
+            <button class="btn4">Spotify</button>
+            <button class="btn5">Wallet</button>
+        </div>
+    </section>
+
+    <section id="productList">
+        <div id="gameSteam">
+            <div>
+                <h2 class="title">Game trên Steam</h2>
+                <h1>Những trò chơi được đánh giá tốt, nội dung hấp dẫn thu hút đang chờ bạn</h1>
+
+            </div>
+
+            <div class="button-GameSteam">
+                <button class="btnGameSteam">Khám Phá</button>
+            </div>
+        </div>
+        <div class="prodSteam">
+            <div class="product-item">
+                <img src="image/sp1.png" />
+                <p class="prodDescription">
+                    Black Myth: Wukong - Thuê game (1 ngày)
+                </p>
+                <p class="prodPrice">
+                    <b>40.000đ</b> <s>1.299.000đ</s> <mark>-97%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp1.2.png" />
+                <p class="prodDescription">
+                    Random Code Steam
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        9.000đ
+                    </b>
+                    <s>
+                        20.000đ
+                    </s>
+                    <mark>-55%</mark>
+                </p>
+
+            </div>
+            <div class="product-item">
+                <img src="image/sp1.3.jpg" />
+                <p class="prodDescription">
+                    GTA Grand Theft Auto V: Premium Online Edition - CD Key Rockstar
+                </p>
+                <p class="prodPrice">
+                    <b>490.000đ</b> <s>650.000đ</s> <mark>-25%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp1.4.jpg" />
+                <p class="prodDescription">
+                    Overcooked 2 - Code kích hoạt
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        179.000đ
+                    </b>
+                    <s>
+                        300.000đ
+                    </s>
+                    <mark>-40%</mark>
+                </p>
+
+            </div>
+        </div>
+        <div id="prodNew">
+
+            <div>
+                <h2 class="title">Sản phẩm mới</h2>
+
+
+            </div>
+
+            <div class="button-prodNew">
+                <button class="btnprodNew">Khám Phá</button>
+            </div>
+        </div>
+
+        <div class="productNew">
+            <div class="product-item">
+                <img src="image/sp6.jpg" />
+                <p class="prodDescription">
+                    Breakneck - CD Key
+                </p>
+                <p class="prodPrice">
+                    <b>49.000đ</b> <s>99.000đ</s> <mark>-51%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp6.1.jpg" />
+                <p class="prodDescription">
+                    LEGO 2K Drive - CD Key
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        219.000đ
+                    </b>
+                    <s>
+                        500.000đ
+                    </s>
+                    <mark>
+                        -56%
+                    </mark>
+                </p>
+
+            </div>
+            <div class="product-item">
+                <img src="image/sp6.2.png" />
+                <p class="prodDescription">
+                    CapCut Pro 77 Ngày - Nâng cấp chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>199.000đ</b> <s>470.000đ</s> <mark>-58%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp6.3.jpg" />
+                <p class="prodDescription">
+                    Call of Cthulhu (CD-Key)
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        149.000đ
+                    </b>
+                    <s>
+                        270.000đ
+                    </s>
+                    <mark>-45%</mark>
+                </p>
+
+            </div>
+        </div>
+
+        <div id="prodStudy">
+
+            <div>
+                <h2 class="title">Học tập</h2>
+
+
+            </div>
+
+            <div class="button-prodStudy">
+                <button class="btnprodStudy">Khám Phá</button>
+            </div>
+        </div>
+        <div class="productStudy">
+            <div class="product-item">
+                <img src="image/sp4.png" />
+                <p class="prodDescription">
+                    Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp
+                </p>
+                <p class="prodPrice">
+                    <b>210.000đ</b> <s>350.000đ</s> <mark>-40%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp4.2.png" />
+                <p class="prodDescription">
+                    Quizlet Plus 1 năm - Nâng cấp chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        399.000đ
+                    </b>
+                    <s>
+                        990.000đ
+                    </s>
+                    <mark>
+                        -60%
+                    </mark>
+                </p>
+
+            </div>
+            <div class="product-item">
+                <img src="image/sp4.3.jpg" />
+                <p class="prodDescription">
+                    Duolingo 1 năm - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>290.000đ</b> <s>1.850.000đ</s> <mark>-84%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp4.4.png" />
+                <p class="prodDescription">
+                    Turnitin 1 Tháng - Nâng cấp chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        249.000đ
+                    </b>
+                    <s>
+                        399.000đ
+                    </s>
+                    <mark>-38%</mark>
+                </p>
+
+            </div>
+        </div>
+
+        <div id="prodEntertainment">
+
+            <div>
+                <h2 class="title">Giải trí</h2>
+
+
+            </div>
+
+            <div class="button-prodEntertainment">
+                <button class="btnprodEntertainment">Khám Phá</button>
+            </div>
+        </div>
+        <div class="productEntertainment">
+            <div class="product-item">
+                <img src="image/sp2.png" />
+                <p class="prodDescription">
+                    Netflix Premium 1 tháng - Tài khoản
+                </p>
+                <p class="prodPrice">
+                    <b>79.000đ</b> <s>260.000đ</s> <mark>-70%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp3.png" />
+                <p class="prodDescription">
+                    Spotify Premium 1 năm - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        390.000đ
+                    </b>
+                    <s>
+                        590.000đ
+                    </s>
+                    <mark>
+                        -34%
+                    </mark>
+                </p>
+
+            </div>
+            <div class="product-item">
+                <img src="image/sp2.2.png" />
+                <p class="prodDescription">
+                    YouTube Premium + YouTube Music 6 tháng - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>269.000đ</b> <s>3.360.000đ</s> <mark>-92%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp2.3.png" />
+                <p class="prodDescription">
+                    YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        499.000đ
+                    </b>
+                    <s>
+                        6.720.000đ
+                    </s>
+                    <mark>
+                        -93%
+                    </mark>
+                </p>
+
+            </div>
+        </div>
+        <div id="prodWork">
+
+            <div>
+                <h2 class="title">Làm việc</h2>
+
+
+            </div>
+
+            <div class="button-prodWork">
+                <button class="btnprodWork">Khám Phá</button>
+            </div>
+        </div>
+        <div class="productWork">
+            <div class="product-item">
+                <img src="image/sp5.png" />
+                <p class="prodDescription">
+                    Windows 10 Professional - CD Key
+                </p>
+                <p class="prodPrice">
+                    <b>290.000đ</b> <s>400.000đ</s> <mark>-28%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp5.2.png" />
+                <p class="prodDescription">
+                    Canva Pro 1 năm - Gia hạn chính chủ
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        295.000đ
+                    </b>
+                    <s>
+                        1.500.000đ
+                    </s>
+                    <mark>
+                        -80%
+                    </mark>
+                </p>
+
+            </div>
+            <div class="product-item">
+                <img src="image/sp5.3.png" />
+                <p class="prodDescription">
+                    Doodly Standard - Tài khoản vĩnh viễn
+                </p>
+                <p class="prodPrice">
+                    <b>599.000đ</b> <s>4.800.000đ</s> <mark>-88%</mark>
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="image/sp5.4.png" />
+                <p class="prodDescription">
+                    Microsoft Office 2019 Professional Plus for Windows
+                </p>
+                <p class="prodPrice">
+                    <b>
+                        790.000đ
+                    </b>
+                    <s>
+                        9.500.000đ
+                    </s>
+                    <mark>
+                        -25%
+                    </mark>
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
